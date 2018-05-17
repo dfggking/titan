@@ -1,5 +1,5 @@
-/.jsdtscope
 .project
 .classpath
 /.settings
 /.idea
+/target
