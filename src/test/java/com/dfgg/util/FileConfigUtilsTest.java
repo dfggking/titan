@@ -10,10 +10,8 @@ public class FileConfigUtilsTest {
 	 * @author jinyingfei - 835317619@qq.com
 	 */
 	public static void main(String[] args) {
-		PropertiesUtil fcu = new PropertiesUtil();
-		
-		String sysName = fcu.getProperties("sys.properties", "sys.name");
+		String sysName = PropertiesUtil.getProperties("sys.properties", "sys.name");
 		System.out.println(sysName);
 	}
-
+	
 }
