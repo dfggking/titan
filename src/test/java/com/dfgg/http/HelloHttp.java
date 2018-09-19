@@ -1,7 +1,5 @@
 package com.dfgg.http;
 
-import com.dfgg.http.client.HttpClient;
-
 public class HelloHttp {
 
 	
@@ -11,7 +9,6 @@ public class HelloHttp {
 		
 		
 		
-		HttpClient.post();
 	}
 
 }
